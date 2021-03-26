@@ -1,0 +1,207 @@
+        /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+        #map {
+            height: 70%;
+            /* height: 304px; */
+            width: 65%;
+            background-color: #ebf0f7;
+        }
+
+        /* Optional: Makes the sample page fill the window. */
+
+        html, body {
+            height: 90%;
+            margin: 0;
+            padding: 0;
+            font-family: Montserrat;
+        }
+
+        .logo {
+            width: 30px;
+        }
+
+        header {
+            margin: 12px auto;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .float-child {
+            float: left;
+        }
+
+        .line-icon {
+            width: 15px;
+        }
+
+        .icon {
+            width: 30px;
+            margin: 0.6px 7%;
+        }
+
+        .centered {
+            text-align: center;
+        }
+
+        .top-margin {
+            margin-top: 20px;
+        }
+
+        .left-align {
+            text-align: left;
+        }
+
+        .small-text {
+            font-size: small;
+            font-weight: 600;
+            color: #07223D;
+        }
+
+        .head-text {
+            color: grey;
+        }
+
+        .address-text {
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .small-bold-text {
+            font-weight: 600;
+            font-size: small;
+            color: #07223D;
+        }
+
+        .hidden {
+            position: absolute;
+            font-size: xx-small;
+            background-color: #07223D;
+            color: #07223D;
+        }
+
+        /* .red {
+            background-color: red;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .orange {
+            background-color: orange;
+        }
+
+        .blue {
+            background-color: blue;
+        } */
+
+        .info-section {
+            width: 35%;
+            /* height: 400px; */
+        }
+
+        .half-div {
+            width: 44%;
+            height: 90px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+
+        .full-div {
+            width: 100%;
+        }
+
+        .auto-width-div {
+            width: auto;
+            padding-bottom: 40px;
+            margin-bottom: -20px;
+        }
+
+        .top-bottom-padding {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .container-div {
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .auto-height-div {
+            height: auto;
+        }
+
+        .rider-info {
+            margin: auto 15%;
+        }
+
+        .side-margin {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        footer {
+            background-color: #07223D;
+        }
+
+        .white-text {
+            color: white;
+            font-weight: 300;
+            font-size: smaller;
+            padding: 60px;
+            padding-bottom: 30px;
+            padding-top: 50px;
+        }
+
+        .location-padding {
+            padding-left: 20px;
+            padding-right: 3px;
+        }
+
+        .custom-width-div {
+            width: 75%;
+            padding-bottom: 40px;
+            margin-bottom: -20px;
+        }
+
+        .top-bottom-border {
+            border-style: solid;
+            border-left: none;
+            border-right: none;
+            border-color: #ebf0f7;
+            border-width: 6px;
+        }
+
+        .top-border {
+            border-width: 6px;
+            border-style: solid;
+            border-color: #ebf0f7;
+            border-bottom-style: none;
+            border-right-style: none;
+            border-left-style: none;
+        }
+
+        /* Responsiveness */
+
+        @media screen and (max-width:800px) {
+            #map, .info-section {
+                width: 100%;
+                /* The width is 100%, when the viewport is 800px or smaller */
+            }
+        }
+
+        @media screen and (min-width:801px) {
+            #map, .info-section {
+                height: 100%;
+                /* The height is 100%, when the viewport is 801px or more */
+            }
+        }
