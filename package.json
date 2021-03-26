@@ -1,0 +1,30 @@
+{
+  "name": "airandmvpsite",
+  "version": "1.0.0",
+  "description": "\"# Airand-MVP-Site\"",
+  "main": "app.js",
+  "dependencies": {
+    "alert": "^5.0.10",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "multiparty": "^4.2.2",
+    "node-fetch": "^2.6.1",
+    "node-popup": "^0.1.14",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.6",
+    "popups": "^1.1.3",
+    "request": "^2.88.2",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chukwuma Azubuike",
+  "license": "ISC"
+}
