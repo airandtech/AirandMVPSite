@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Airand | Tracking</title>
+    <link rel="icon" href="/images/Logo.png" type="image/x-icon">
+    <!-- Google fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/css1/google-tracking.css"> -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css1/google-tracking.css">
+    <!-- <script type="text/javascript" src="/js1/tracking.js" charset="utf-8"></script> -->
+
+</head>
+
+<body>
+    <!-- Header Labels -->
+    <header>
+        <div class="float-child side-margin">
+            <a href="/order/e-commerce"><img class="logo" src="/images1/Logo.png" alt=""></a>
+        </div>
+        <div class="side-margin">
+            <div class="right head-text">
+                <%=deliveryStatus%>
+            </div>
+            <div class="right small-text">
+                <%=orderNumber%>
+            </div>
+        </div>
+    </header>
+    <!-- Map div -->
+    <div id="map" class="float-child"></div>
+    <div class="centered float-child info-section">
+        <div class="">
+            <div class=" left-align small-left-margin red half-div float-child auto-height-div top-bottom-border">
+                <div class="rider-info">
+                    <%=riderName%>
+                </div>
+                <div class="small-bold-text rider-info">
+                    <%=riderPhone%>
+                </div>
+            </div>
+            <div class=" left-margin inner-info yellow half-div float-child auto-height-div top-bottom-border">
+                <span class=""><a href="tel:<%=riderPhone%>"><img class="icon phone" src="/images1/phone.svg"
+                            alt="phone"></a></span>
+                <span class=""><a href="sms://<%=riderPhone%>"><img class="icon sms" src="/images1/sms.svg"
+                            alt="sms"></a></span>
+            </div>
+        </div>
+        <div class="container-div">
+            <div class="blue half-div auto-width-div float-child location-padding"><img class="line-icon"
+                    src="/images1/pickup to dropoff.png" alt="">
+            </div>
+            <div
+                class="inner-info left-align green half-div float-child auto-height-div location-padding custom-width-div">
+                <div class="head-text">Pickup</div>
+                <div class="small-text address-text">
+                    <%=pickupAddress%>
+                </div>
+                <div class="head-text top-margin">Delivery</div>
+                <div class="small-text address-text">
+                    <%=deliveryAddress%>
+                </div>
+            </div>
+        </div>
+        <div class="inner-info orange float-child full-div top-bottom-padding top-bottom-border">
+            <div class="head-text">Estimated time of <%=task%></div>
+            <div class="small-text">
+                <%=deliveryTime%>
+            </div>
+        </div>
+        <div class="inner-info yellow float-child full-div top-bottom-padding">
+            <div class="head-text">Delivery Fee</div>
+            <div class="small-text">
+                <%=deliveryFee%>
+            </div>
+        </div>
+    </div>
+    <footer class="centered float-child full-div">
+        <div>
+            <p class="copyright small-text white-text">Copyright © 2021 Airand Technologies - All rights reserved.</p>
+            <div class="hidden full-div">
+                <v id="rider-coordinates-lat">
+                    <%=riderCoordinatesLat%>
+                </v>
+                <v id="rider-coordinates-lng">
+                    <%=riderCoordinatesLng%>
+                </v>
+                <v id="destination-coordinates-lat">
+                    <%=destinationCoordinatesLat%>
+                </v>
+                <v id="destination-coordinates-lng">
+                    <%=destinationCoordinatesLng%>
+                </v>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <!-- Google Maps API Script -->
+    <script type="text/javascript" src="/js1/tracking.js" charset="utf-8"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgR7PScd7Y6QOKvWw5eq4lYVHi4eLK3xY&map_ids=80d7f4b52d24fbba&callback=initMap&libraries=&v=weekly"></script>
+</body>
+
+</html>

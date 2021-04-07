@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -517,4 +518,525 @@
     crossorigin="anonymous"></script>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Airand | Urban delivery </title>
+  <!-- Logo -->
+  <link rel="icon" type="image/png" href="images1/Logo.png">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css1/style2.css">
+  <!-- Node popup link -->
+  <link rel="stylesheet" href="popupS.css">
+  <!-- Bootstrap library link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
+  <!-- Google fonts -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg bg-light navbar-light">
+    <a href=""><img class=" logo navbar-brand" src="images1/Logo scale 2.png" width="150px"
+        alt="airand logo" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#howItWorks">How it works</a>
+        </li>
+        <li class="nav-item">
+          <a href="#orderNow" class="nav-link">Order now</a>
+        </li>
+        <li class="nav-item">
+          <a href="#footer" class="nav-link">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a href="/privacy-policy" class="nav-link" target="_blank">Privacy policy</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- container1 -->
+  <div style="background-image: url('images1/dispatcher.jpg');" class="container0">
+    <div class="subheading"><em>On-demand Logistics Service Network</em></div>
+    <div class="heading">GET YOUR ITEMS DELIVERED BY THE CLOSEST DISPATCHER ANYWHERE, ANYTIME!</div>
+    <a href="#orderNow"><button class="button1" type="button">Order Now</button></a>
+  </div>
+
+  <!-- How it works -->
+  <div id="howItWorks" class="container1">
+    <!-- <h5 class="title">How it works</h5> -->
+    <div class="pros">
+      <img class="bookOrderImg" src="images1\Book-order-online.png">
+      <p class="prosText">Book delivery orders conveniently</p>
+    </div> 
+    <div class="pros">
+      <img class="delivery-truck" src="images1\delivery truck.png">
+      <p class="prosText">Get matched to the closest available dispatcher</p>
+    </div>
+    <div class="pros">
+      <img class="bookOrderImg" src="images1\Tracking gps.png">
+      <p class="prosText">Track deliveries conveniently</p>
+    </div>
+  </div>
+  <!-- Track Delivery -->
+  <div id="howItWorks" class="container1">
+    <form action="/order/track" method="POST" id="trackForm">
+      <div class="centered" id="tracker">
+        <input class="spec-width" type="text" name="orderNumber" id="orderNumber" placeholder="Enter order number"
+          required /><br>
+      </div>
+      <div class="centered">
+        <button id="track" action="/order/track" type="submit" class="spec-width twoToneButton top top-margin"
+          >Track Delivery</button>
+      </div>
+    </form>
+  </div>
+  <!-- <hr class= "hr"> -->
+  <!-- container2 -->
+  <div id="pricing" class="container2">
+    <h5 class="title">Same Day Delivery</h5>
+    <table cellspacing="50px" border="0" align="center">
+      <tr>
+        <td> Mainland to Mainland (Standard)</td>
+        <td class="td2">N1000</td>
+      </tr>
+      <tr>
+        <td>Island to Island (Standard) </td>
+        <td class="td2">N1000</td>
+      </tr>
+      <tr>
+        <td>Mainland to Island (Standard) </td>
+        <td class="td2">N1500</td>
+      <tr>
+        <td>Island to Mainland (Standard) </td>
+        <td class="td2">N1500</td>
+      </tr>
+      <!-- <tr>
+          <td> Island to Island (Before Ajah) </td>
+          <td class="td2">N1000</td>
+        </tr>
+        <tr>
+          <td>Island to Island (After Ajah)</td>
+          <td class="td2">N1500</td>
+        </tr>
+        <tr>
+          <td>Island to Mainland</td>
+          <td class="td2">N1500</td>
+        </tr>
+        <tr>
+          <td>Island to Mainland (Special Areas) </td>
+          <td class="td2">N2500</td>
+        </tr> -->
+    </table>
+  </div>
+  <div class="estimate-div">
+    <b class="notice-text">Note:</b>
+    <v class="extra-charge-notice"> Transaction fees apply. Extra charges may apply for significantly farther distances.
+      Deliveries are not time bound, however sameday delivery is guaranteed.
+    </v>
+  </div>
+  <!-- </div> -->
+  <!-- container3 -->
+  <div id="orderNow" class="container3">
+    <img class="guaranty-image" src="/images1/money-back-guarantee.jpg" alt="">
+
+    <!-- Pickup Details -->
+    <h5 class="title" id="order-now">Order now</h5>
+    <p class="notice">Please package and label your item(s) properly</p>
+    <div class="buttonDiv">
+      <button class="pickup-button" type="button">
+        <i class="icon1 fas fa-dolly"></i> Pickup details</button>
+    </div>
+    <form id="orderForm" action="/order" method="post" accept-charset="utf-8">
+      <div class="pickup-details">
+        <!-- <form id="pickupForm" action="/" method="post" accept-charset="utf-8"> -->
+        <select class="pArea" name="pArea" id="pickup-area" required>
+          <option value=""> Select pickup area </option>
+          <optgroup label="Island 1">
+            <option value="AC001"> Ikoyi </option>
+            <option value="AC002"> Lagos Island </option>
+            <option value="AC003"> CMS </option>
+            <option value="AC004"> Marina </option>
+            <option value="AC005"> Victoria Island </option>
+            <option value="AC006"> Oniru </option>
+            <option value="AC007"> Lekki Phase 1 </option>
+            <option value="AC008"> Ikate </option>
+          <optgroup label="Island 2">
+            <option value="AC009"> Ajah </option>
+            <option value="AC010"> Thomas Estate </option>
+            <option value="AC011"> Badore </option>
+            <option value="AC012"> Langbasa </option>
+            <option value="AC013"> Addo road </option>
+            <option value="AC014"> Ikota </option>
+            <option value="AC015"> VGC </option>
+            <option value="AC016"> Agungi </option>
+            <option value="AC017"> Jakande </option>
+            <option value="AC018"> Osapa London </option>
+            <option value="AC019"> Igbo-Efon </option>
+            <option value="AC020"> Chevron </option>
+          <optgroup label="Island 3">
+            <option value="AC021"> Abraham Adesanya </option>
+            <option value="AC022"> Lagos Business School </option>
+            <option value="AC023"> Ogombo </option>
+          <optgroup label="Island 4">
+            <option value="AC024"> Abijo </option>
+            <option value="AC025"> Sangotedo </option>
+            <option value="AC026"> Crown Estate </option>
+          <optgroup label="Island 5">
+            <option value="AC027"> Awoyaya </option>
+            <option value="AC028"> Ibeju-Lekki </option>
+            <option value="AC029"> Lakowe </option>
+          <optgroup label="Mainland 1">
+            <option value="AC030"> Alagomeji </option>
+            <option value="AC031"> Sabo </option>
+            <option value="AC032"> Yaba </option>
+            <option value="AC033"> Shomolu </option>
+            <option value="AC034"> Anthony </option>
+            <option value="AC035"> Bariga </option>
+            <option value="AC036"> Costain </option>
+            <option value="AC037"> Ebutte Metta </option>
+            <option value="AC038"> Gbagada </option>
+            <option value="AC039"> Iganmu </option>
+            <option value="AC040"> Ilupeju </option>
+            <option value="AC041"> Iponri </option>
+            <option value="AC042"> Iwaya </option>
+            <option value="AC043"> Jibowu </option>
+            <option value="AC044"> Obanikoro </option>
+            <option value="AC045"> Onigbongbo </option>
+            <option value="AC127"> Onipanu </option>
+            <option value="AC046"> Oworonshoki </option>
+            <option value="AC047"> Surulere </option>
+            <option value="AC048"> Anthony Village </option>
+            <option value="AC049"> Idi Araba </option>
+          <optgroup label="Mainland 2">
+            <option value="AC050"> Ijora </option>
+            <option value="AC051"> Ajao Estate </option>
+            <option value="AC052"> Mafoluku </option>
+            <option value="AC053"> Shangisha </option>
+            <option value="AC054"> Ogba </option>
+            <option value="AC055"> Egbeda </option>
+            <option value="AC056"> Oshodi </option>
+            <option value="AC057"> Dopemu </option>
+            <option value="AC058"> Oyingbo </option>
+            <option value="AC059"> Shogunle </option>
+            <option value="AC060"> Ikeja </option>
+            <option value="AC061"> Maryland </option>
+            <option value="AC062"> MMA (Local Airport) </option>
+            <option value="AC063"> MMA (International Airport) </option>
+            <option value="AC064"> Ogudu </option>
+            <option value="AC065"> Omole Phase 1 </option>
+            <option value="AC066"> Oregun </option>
+            <option value="AC067"> Orile </option>
+            <option value="AC068"> Mushin </option>
+            <option value="AC069"> Agidingbi </option>
+            <option value="AC070"> Alausa </option>
+            <option value="AC077"> Ketu </option>
+          <optgroup label="Mainland 3">
+            <option value="AC071"> Ago Palace </option>
+            <option value="AC072"> Ajegunle </option>
+            <option value="AC073"> Navy Town </option>
+            <option value="AC074"> Mile 12 </option>
+            <option value="AC075"> Isheri </option>
+            <option value="AC076"> Kirikiri </option>
+            <option value="AC078"> Iyana Ipaja </option>
+            <option value="AC079"> Itire </option>
+            <option value="AC080"> Isolo </option>
+            <option value="AC081"> Idi Mangoro </option>
+            <option value="AC082"> Festac </option>
+            <option value="AC083"> Amuwo Odofin </option>
+            <option value="AC084"> Alapere </option>
+            <option value="AC085"> Agege </option>
+            <option value="AC086"> Magodo </option>
+            <option value="AC087"> Ifako Ijaye </option>
+            <option value="AC088"> Amukoko </option>
+            <option value="AC089"> Apapa </option>
+            <option value="AC090"> Ojodu </option>
+            <option value="AC091"> Orile Agege </option>
+            <option value="AC128"> Okota </option>
+          <optgroup label="Mainland 4">
+            <option value="AC092"> Abule Egba </option>
+            <option value="AC093"> Abule Osun </option>
+            <option value="AC094"> Akowonjo </option>
+            <option value="AC095"> Alimosho </option>
+            <option value="AC096"> Ejigbo </option>
+            <option value="AC097"> Gowon Estate </option>
+            <option value="AC098"> Idinmu </option>
+            <option value="AC099"> Ikotun </option>
+            <option value="AC100"> Ipaja </option>
+            <option value="AC101"> Maza Maza </option>
+            <option value="AC102"> Mile 2 </option>
+            <option value="AC103"> Ojo </option>
+            <option value="AC104"> Satelite Town </option>
+            <option value="AC105"> Ayobo </option>
+            <option value="AC106"> New Oko Oba </option>
+          <optgroup label="Mainland 5">
+            <option value="AC107"> Ajangbadi </option>
+            <option value="AC108"> Alaba International </option>
+            <option value="AC109"> Alaba Rago </option>
+            <option value="AC110"> Alagbado </option>
+            <option value="AC111"> Fagba </option>
+            <option value="AC112"> Igando </option>
+            <option value="AC113"> Ijaiye </option>
+            <option value="AC114"> Iju </option>
+            <option value="AC115"> Ikorodu </option>
+            <option value="AC116"> Ishaga </option>
+            <option value="AC117"> Iyana Iba </option>
+            <option value="AC118"> Meiran </option>
+            <option value="AC119"> Owode </option>
+            <option value="AC120"> Trade Fair </option>
+            <option value="AC121"> Ijegun </option>
+            <option value="AC122"> Isheri </option>
+            <option value="AC123"> Olofin </option>
+            <option value="AC124"> Ikorodu-Agric </option>
+            <option value="AC125"> Ikorodu-Laspotech </option>
+            <option value="AC126"> Ikorodu-Igbogbo </option>
+        </select><br>
+        <label for="pAddress">Address</label><br>
+        <input type="text" name="pAddress" id="query-0" class="query" value="" placeholder="Pickup address"
+          required /><br />
+        <label for="sName">Name</label><br>
+        <input class="name" type="text" name="sName" id="" value="" placeholder="Sender's name" required /><br />
+        <label for="sPhoneNumber">Phone number</label><br>
+        <input class="phoneNumber" type="tel" name="sPhoneNumber" id="" value="" placeholder="Sender's phone number"
+          required /><br />
+        <label for="email">Email</label><br>
+        <input class="email" type="email" name="email" id="" value="" placeholder="Email" />
+        <br>
+        <!-- </form> -->
+      </div>
+
+      <!-- Delivery details -->
+      <div class="delivery-tab">
+
+        <div class="buttonDiv">
+          <button class="delivery-button" type="button">
+            <i class="icon1 fas fa-truck"></i> Delivery details</button>
+        </div>
+        <div class="delivery-details">
+          <!-- <form id="deliveryForm" action="/" method="post" accept-charset="utf-8"> -->
+          <select class="dArea0" name="dArea0" id="delivery-area" required>
+            <option value=""> Select delivery area </option>
+            <optgroup label="Island 1">
+              <option value="AC001"> Ikoyi </option>
+              <option value="AC002"> Lagos Island </option>
+              <option value="AC003"> CMS </option>
+              <option value="AC004"> Marina </option>
+              <option value="AC005"> Victoria Island </option>
+              <option value="AC006"> Oniru </option>
+              <option value="AC007"> Lekki Phase 1 </option>
+              <option value="AC008"> Ikate </option>
+            <optgroup label="Island 2">
+              <option value="AC009"> Ajah </option>
+              <option value="AC010"> Thomas Estate </option>
+              <option value="AC011"> Badore </option>
+              <option value="AC012"> Langbasa </option>
+              <option value="AC013"> Addo road </option>
+              <option value="AC014"> Ikota </option>
+              <option value="AC015"> VGC </option>
+              <option value="AC016"> Agungi </option>
+              <option value="AC017"> Jakande </option>
+              <option value="AC018"> Osapa London </option>
+              <option value="AC019"> Igbo-Efon </option>
+              <option value="AC020"> Chevron </option>
+            <optgroup label="Island 3">
+              <option value="AC021"> Abraham Adesanya </option>
+              <option value="AC022"> Lagos Business School </option>
+              <option value="AC023"> Ogombo </option>
+            <optgroup label="Island 4">
+              <option value="AC024"> Abijo </option>
+              <option value="AC025"> Sangotedo </option>
+              <option value="AC026"> Crown Estate </option>
+            <optgroup label="Island 5">
+              <option value="AC027"> Awoyaya </option>
+              <option value="AC028"> Ibeju-Lekki </option>
+              <option value="AC029"> Lakowe </option>
+            <optgroup label="Mainland 1">
+              <option value="AC030"> Alagomeji </option>
+              <option value="AC031"> Sabo </option>
+              <option value="AC032"> Yaba </option>
+              <option value="AC033"> Shomolu </option>
+              <option value="AC034"> Anthony </option>
+              <option value="AC035"> Bariga </option>
+              <option value="AC036"> Costain </option>
+              <option value="AC037"> Ebutte Metta </option>
+              <option value="AC038"> Gbagada </option>
+              <option value="AC039"> Iganmu </option>
+              <option value="AC040"> Ilupeju </option>
+              <option value="AC041"> Iponri </option>
+              <option value="AC042"> Iwaya </option>
+              <option value="AC043"> Jibowu </option>
+              <option value="AC044"> Obanikoro </option>
+              <option value="AC045"> Onigbongbo </option>
+              <option value="AC127"> Onipanu </option>
+              <option value="AC046"> Oworonshoki </option>
+              <option value="AC047"> Surulere </option>
+              <option value="AC048"> Anthony Village </option>
+              <option value="AC049"> Idi Araba </option>
+            <optgroup label="Mainland 2">
+              <option value="AC050"> Ijora </option>
+              <option value="AC051"> Ajao Estate </option>
+              <option value="AC052"> Mafoluku </option>
+              <option value="AC053"> Shangisha </option>
+              <option value="AC054"> Ogba </option>
+              <option value="AC055"> Egbeda </option>
+              <option value="AC056"> Oshodi </option>
+              <option value="AC057"> Dopemu </option>
+              <option value="AC058"> Oyingbo </option>
+              <option value="AC059"> Shogunle </option>
+              <option value="AC060"> Ikeja </option>
+              <option value="AC061"> Maryland </option>
+              <option value="AC062"> MMA (Local Airport) </option>
+              <option value="AC063"> MMA (International Airport) </option>
+              <option value="AC064"> Ogudu </option>
+              <option value="AC065"> Omole Phase 1 </option>
+              <option value="AC066"> Oregun </option>
+              <option value="AC067"> Orile </option>
+              <option value="AC068"> Mushin </option>
+              <option value="AC069"> Agidingbi </option>
+              <option value="AC070"> Alausa </option>
+              <option value="AC077"> Ketu </option>
+            <optgroup label="Mainland 3">
+              <option value="AC071"> Ago Palace </option>
+              <option value="AC072"> Ajegunle </option>
+              <option value="AC073"> Navy Town </option>
+              <option value="AC074"> Mile 12 </option>
+              <option value="AC075"> Isheri </option>
+              <option value="AC076"> Kirikiri </option>
+              <option value="AC078"> Iyana Ipaja </option>
+              <option value="AC079"> Itire </option>
+              <option value="AC080"> Isolo </option>
+              <option value="AC081"> Idi Mangoro </option>
+              <option value="AC082"> Festac </option>
+              <option value="AC083"> Amuwo Odofin </option>
+              <option value="AC084"> Alapere </option>
+              <option value="AC085"> Agege </option>
+              <option value="AC086"> Magodo </option>
+              <option value="AC087"> Ifako Ijaye </option>
+              <option value="AC088"> Amukoko </option>
+              <option value="AC089"> Apapa </option>
+              <option value="AC090"> Ojodu </option>
+              <option value="AC091"> Orile Agege </option>
+              <option value="AC128"> Okota </option>
+            <optgroup label="Mainland 4">
+              <option value="AC092"> Abule Egba </option>
+              <option value="AC093"> Abule Osun </option>
+              <option value="AC094"> Akowonjo </option>
+              <option value="AC095"> Alimosho </option>
+              <option value="AC096"> Ejigbo </option>
+              <option value="AC097"> Gowon Estate </option>
+              <option value="AC098"> Idinmu </option>
+              <option value="AC099"> Ikotun </option>
+              <option value="AC100"> Ipaja </option>
+              <option value="AC101"> Maza Maza </option>
+              <option value="AC102"> Mile 2 </option>
+              <option value="AC103"> Ojo </option>
+              <option value="AC104"> Satelite Town </option>
+              <option value="AC105"> Ayobo </option>
+              <option value="AC106"> New Oko Oba </option>
+            <optgroup label="Mainland 5">
+              <option value="AC107"> Ajangbadi </option>
+              <option value="AC108"> Alaba International </option>
+              <option value="AC109"> Alaba Rago </option>
+              <option value="AC110"> Alagbado </option>
+              <option value="AC111"> Fagba </option>
+              <option value="AC112"> Igando </option>
+              <option value="AC113"> Ijaiye </option>
+              <option value="AC114"> Iju </option>
+              <option value="AC115"> Ikorodu </option>
+              <option value="AC116"> Ishaga </option>
+              <option value="AC117"> Iyana Iba </option>
+              <option value="AC118"> Meiran </option>
+              <option value="AC119"> Owode </option>
+              <option value="AC120"> Trade Fair </option>
+              <option value="AC121"> Ijegun </option>
+              <option value="AC122"> Isheri </option>
+              <option value="AC123"> Olofin </option>
+              <option value="AC124"> Ikorodu-Agric </option>
+              <option value="AC125"> Ikorodu-Laspotech </option>
+              <option value="AC126"> Ikorodu-Igbogbo </option>
+          </select><br>
+          <label for="dAddress0">Address</label><br>
+          <input type="text" name="dAddress0" id="query-1" class="query" value="" placeholder="Delivery address"
+            required /><br />
+          <label for="rName0">Name</label><br>
+          <input type="text" name="rName0" id="" value="" placeholder="Receiver's name" required /><br />
+          <label for="rPhoneNumber0">Phone number</label><br>
+          <input type="tel" name="rPhoneNumber0" id="" value="" placeholder="Phone number" required /><br />
+          <label for="iDescription0">Description</label><br>
+          <input type="text" name="iDescription0" id="" value="" placeholder="Item description and instructions" />
+
+        </div>
+      </div>
+      <div class="newButtonDiv">
+
+      </div>
+      <!-- Add Another Delivery -->
+      <div class="buttonDiv">
+
+        <button class="add-another-delivery" type="button">
+          <i class="icon1 fas fa-plus"></i> Add another delivery</button>
+        <script src="https://checkout.flutterwave.com/v3.js"></script>
+        <button id="postForm" action="/order" type="button" class="twoToneButton" onclick="implement()">Proceed to
+          Pay</button>
+        <!-- <button class="button2 buttonload"><i class="fa fa-spinner fa-spin"></i>Loading</button> -->
+
+    </form>
+  </div>
+  <div id="footer" class="foot">
+    <a href="https://www.facebook.com/airandng" target="_blank"><i class="socialicon fab fa-facebook"></i></a>
+    <!-- <a href="#"><i class="socialicon fab fa-twitter"></i></a> -->
+    <a href="https://www.instagram.com/airandng" target="_blank"><i class="socialicon fab fa-instagram"></i></a>
+    <a href="mailto:hello@airand.net"><i class="socialicon fas fa-envelope"></i></a>
+    <a href="tel:+234-708-559-0939"><i class="socialicon fas fa-phone"></i></a>
+    <p class="copyright">Copyright © 2021 Airand Technologies - All rights reserved.</p>
+  </div>
+
+  <!-- Google Autocomplete Script -->
+  <script type="text/javascript" src="js1/autocomplete.js" charset="utf-8"></script>
+  <!-- Google Autocomplete API -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgR7PScd7Y6QOKvWw5eq4lYVHi4eLK3xY&libraries=places&callback=initAutocomplete"
+    async defer></script>
+  <!-- Main jQuery External Link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Main JavaScript -->
+  <script type="module" src="js1/main.js" charset="utf-8"></script>
+  <!-- Node popup script -->
+  <script src="popupS.js"></script>
+  <!-- <script>
+    popupS.alert({
+      content: 'Hello World!'
+    });
+  </script> -->
+  <!-- Dependencies bundle script  -->
+  <script src="bundle.js"></script>
+  <!-- Toggle JavaScript -->
+  <!-- <script type="module" src="js1/toggle.js" charset="utf-8"></script> -->
+  <script type="text/javascript" src="js1/flutterwave.js" charset="utf-8"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+>>>>>>> 18639bd06f7c8d0a6ba9e4ad1d624e165d58ab43
 </html>

@@ -1,0 +1,68 @@
+h3, p{
+    padding: 5px 40px;
+  }
+  .body{
+    text-align: center;
+    font-family: "Montserrat";
+    color: #707070;
+  }
+  .success{
+    width: 125px;
+    padding: 10px 20px 30px;
+  }
+  .failure{
+    width: 200px;
+    padding: 50px 20px 30px;
+    color: #07223D;
+  }
+  .logo{
+    padding: 30px 20px;
+  }
+  button{
+    border: 0;
+    /* color: white; */
+    font-weight: bold;
+    padding: 5px 15px;
+    font-size: 0.85rem;
+  }
+  .accept-button{
+      background-color: #0ED91B;
+      margin: auto 10px;
+  }
+  .decline-button{
+      background-color: #F72514;
+      margin: auto 10px;
+  }
+  #retry{
+    background-color: orange;
+  }
+  .price{
+    padding: 5px 0;
+    color: #07223D;
+  }
+  .button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .socialicon{
+    size: 50px;
+    color: black;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  .notice{
+    font-size: 12px;
+    padding: 10px 50px;
+    color: #F72514;
+  }
+  .copyright{
+    font-size: 12px;
+    padding: 10px 70px;
+  }
+  v{
+    font-size: 12px;
+  }
+  c{
+    color: black;
+  }
+  
