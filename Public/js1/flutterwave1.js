@@ -47,7 +47,7 @@ function makePayment(pay) {
     FlutterwaveCheckout({
         public_key: "FLWPUBK-36da305d37bd5a11ae89a5775b36ed71-X",
         tx_ref: transRef,
-        amount: '10',
+        amount: pay,
         currency: "NGN",
         country: "NG",
         payment_options: "card, ussd, banktransfer, barter, paga",
