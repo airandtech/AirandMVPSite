@@ -730,7 +730,7 @@ app.post('/order', function (req, res) {
     postData = (passedData) => {
         console.log("Inside postData")
         // console.log(passedData)
-        const url = "https://api.airand.net/api/dispatch/order/company";
+        const url = `${process.env.BASE_URL}/api/dispatch/order/company`;
         const access_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQiLCJuYmYiOjE2MDMzOTI1MDUsImV4cCI6MTgyNDIzMDkwNSwiaWF0IjoxNjAzMzkyNTA1fQ.MZKVJ6NOclgO72F4R21KJWN2-cx_Sq1cw4SFsbxwBlI"; //token
 
         const options = {
@@ -821,7 +821,7 @@ app.post('/e-commerce-register', function (req, res) {
 
     // console.log(jsonData);
 
-    const url = 'https://api.airand.net/api/merchants';
+    const url = `${process.env.BASE_URL}/api/merchants`;
     // const access_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJuYmYiOjE2MDE3NjYxOTcsImV4cCI6MTYwMjM3MDk5NCwiaWF0IjoxNjAxNzY2MTk3fQ.ASe492TH0lJp6FI9WPaTbTZbq839dqUhtwHO7fudbb4"; //token
 
     const options = {
@@ -881,8 +881,8 @@ app.post('/order/track', function (req, res) {
 
     orderNumberIn = req.body.orderNumber;
 
-    const url = `https://api.airand.net/api/location/order/track/${orderNumberIn}`;
-    const access_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJuYmYiOjE2MDE3NjYxOTcsImV4cCI6MTYwMjM3MDk5NCwiaWF0IjoxNjAxNzY2MTk3fQ.ASe492TH0lJp6FI9WPaTbTZbq839dqUhtwHO7fudbb4"; //token
+    const url = `${process.env.BASE_URL}/api/location/order/track/${orderNumberIn}`;
+    const access_token = process.env.ACCESS_TOKEN; //token
 
     //Declare all variables globally
     let deliveryStatus;
